@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0px;
+    font-family: 'Montserrat', Sanserif;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#inicio{
+    background-image: url(./img\ 13-22-49-248/banner.jpg);
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+#nav{
+    height: 10vh;
+    font-weight: 600;
+    
+}
+a:link{
+    color: lightgray;
+}
+a:hover{
+    color: turquoise; 
+    cursor: pointer;  
+}
+#portadaimagen{
+    height: 120px;
+    width: 120px;
+    border-radius: 21px;
+}
+#portada{
+    height: 60vh;
+    color: lightgray;
+}
+#sobreMi{
+    height: 30vh;
+    background-color: #EC7063;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    color: white;
+    text-align: center;   
+}
+#subtitulo{
+    margin-bottom: 10px;
+}
+#proyectos{
+    text-align: center;
+    padding-top: 8%;
+    color: #EC7063;
+}
+#subtituloso{
+    color: #9b9b9b;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#contacto{
+    background-color: #455a64;
+    margin-top: 8%;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+#subsubtitulo{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#btnEnviar{
+    margin-top: 3%;
+    height: 50px;
+    width: 215px;
+    background-color: #EC7063;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+    border-style: none;
+}
+#form{  
+    font-size: 18px #37474f;
+    color:white;
+    border-bottom: 2px #37474f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#filasuperior{
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+#filasuperior input, textarea{
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 2px #37474f;
+
+}
+#input, textarea{
+    color: white;
+    padding: 2px 4px 2px 6px;
+}
+footer{
+    background-color: #37474F;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+}

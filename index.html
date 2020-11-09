@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="estilos.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Alex</title>
 </head>
 <body>
     <section id="inicio">
-        <nav>
+        <nav id="nav">
             <ul>
                 <li><a href="#sobreMi">Sobre mi</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
@@ -15,14 +16,14 @@
             </ul>
         </nav>
         <div id="portada">
-            <img src="./img 13-22-49-248/avatar.jpg" width="200" height="220">
+            <img src="./img 13-22-49-248/avatar.jpg" width="200" height="220" id="portadaimagen">
             <h2>Alexandro Richard</h2>
             <h3>Frontend Developer</h3>
         </div>
     </section>
     <section id="sobreMi">
-        <h2>Sobre Mi</h2>
-        <p>Et pluribis unum.</p>
+        <h2 id="subtitulo">Sobre Mi</h2>
+        <p>Estoy aprendiendo a codear.</p>
     </section>
     <section id="proyectos">
         <div class="proyectoTitulo">
@@ -36,16 +37,21 @@
         </div>
     </section>
     <section id="contacto">
-        <h2>Contacto</h2>
-        <h3>Escribeme, Trabajemos Juntos.</h3>
-        <form>
-            <label for="fname">Nombre:</label>
+        <div class="contactoTitulos">
+        <h2 id="subsubtitulo">Contacto</h2>
+        <h3 id="subtituloso">Escribeme, Trabajemos Juntos.</h3>
+        </div>
+        <form id="form">
+            <div id="filasuperior"><label for="fname">Nombre:</label>
             <input type="text" id="fname" name="fname" placeholder="nombre">
             <label for="email">Correo Electronico:</label>
             <input type="email" id="email" name="email" placeholder="ejemplo@tuemail.com"><br>
-            <label for="asunto">Asunto:</label><br>
+            </div>
+            <div id="filainferior">
+            <label for="asunto">Asunto:</label>
             <textarea name="asunto" id="asunto" cols="60" rows="1" placeholder="asunto"></textarea><br>
-            <input type="submit" value="Enviar"><br>
+            <input type="submit" value="Enviar" id="btnEnviar"><br>
+            </div>
         </form>    
     </section><br><br>
     <footer>
